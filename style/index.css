@@ -7,7 +7,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-image: url("/img/wallpaper.png");
+  background-image: url("../img/wallpaper.png");
   background-size: cover;
   background-position: center center;
 }
