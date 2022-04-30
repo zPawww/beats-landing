@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Poppins',sans-serif;
-    background-image: url("/img/wallpaper.png");
+    background-image: url("../img/wallpaper.png");
     background-size:cover;
     background-position: center center;
 }
@@ -54,7 +54,7 @@ body{
 .hero__landing{
     grid-area: content;
     .hero__texts{
-        padding-left: 70px;
+        padding-left: 50px;
         padding-top: 30px;
     }
 
@@ -103,6 +103,18 @@ body{
     .main__header{
         height: 100%;
         width: 100%;
+    }
+
+    .nav__header{
+        padding: 0px 50px;
+    }
+
+    .link__hero__explore{
+        padding-bottom: 40px;
+    }
+
+    .hero__texts{
+        padding-left: 10px !important;
     }
 
 }
